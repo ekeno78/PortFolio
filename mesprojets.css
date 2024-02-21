@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'lora', sans-serif;
+    background: linear-gradient(135deg, #ee92b0, #f41b66);
+    background-size: cover; /* pour couvrir l'ensemble de l'écran */
+    background-position: center; /* centrer l'image */
+}
+
+
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #f41b66;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.button:hover {
+    background-color: #f41b66;
+    color: #fff;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* couleur de fond avec transparence */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%; /* largeur maximale de l'encadré */
+}
+
+
+
+h1{
+    color: #f41b66; /* blanc */
+    text-align: center; /* centrer le texte */
+    margin-top: 20px; /* ajouter une marge en haut */
+    font-size: 2.5rem; /* taille de la police */
+    text-transform: uppercase; /* transformer le texte en majuscules */
+    font-weight: bold; /* mise en gras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* ajouter une ombre au texte */
+    font-family: 'roboto', sans-serif;
+}
+
+
+#cv-description {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.button-projet {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background-color: #f41b66;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
